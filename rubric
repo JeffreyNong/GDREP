@@ -1,0 +1,35 @@
+CPSC 223C Project 1 – grep (from ed), due Wednesday, 25 Mar 2020
+Your name:
+Repository (print): _______________________________________.github.io
+Finished Not
+finished
+Verify each of the following items with a corresponding checkmark
+Incorrectly marked items will incur a 5% penalty per item
+ □ □ Researched grep on the Unix man page for grep (type man grep)
+ □ □ Researched ed on the Unix man page for ed (type man ed for ed(1))game.
+ □ □Researched regex (regular expressions), and have experimented with using them in ed. Read through in detail the source code for ed (ed.c).
+ □ □ Duplicated ed.c’s 1700+ lines of code, saved it as grep.c, and compiled it successfully.
+ □ □ Have used gdb or lldb debugger to step through code, and can demonstrate knowledge
+ □ □Have compressed source code to less than 600 lines, to have multiple expressions on the same line, to aid in understanding scope and function of each part of ed.
+ □ □ Contrasted your version and Unix’s ed editor, and confirmed grep runs identically.
+ □ □ Changed your version’s main so the program’s user interface acts like grep, not like ed.
+ □ □Identified the code unlikely to be associated with the grep functionality, commented itout, and confirmed the code’s grep features still work correctly.
+ □ □ Used a header file to prototype all functions in grep.h
+ □ □ Removed all unnecessary variables and functions from grep.c
+ □ □Confirmed the following functionality of your version of grep:
+‘^Fred’ search for Fred at beginning of line
+‘Fred.$’ search for Fred. at end of line
+'[FG]oo' * search for Foo or Goo
+'[0-9][0-9][0-9]' search for a California license plate number
+ □ □ grep can search for a string in one or more files
+ □ □ grep prints all lines (in all search files) matching the regexp string
+ □ □ grep prints a leading filename and colon on each line if multiple files are searched
+ □ □
+Final souce code (uncompressed) is less than 700 lines (multiple declarations of same
+type on same line (e.g., int *pa, *pb, c, *pd;) is ok. If statements with one expression on
+one line, or functions with one line are ok (e.g. int min(int a, int b) { return a < b ? a : b; })
+ □ □ Final source code (uncompressed) is less than 600 lines
+ □ □ Final source code (uncompressed) is less than 500 lines
+ □ □ Final source code (uncompressed) is less than 400 lines
+ □ □ The Project directory has been pushed to the above GitHub repository
+Your comments
